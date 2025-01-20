@@ -15,7 +15,7 @@ These project should be open with live server
 ## Authors
 
   - **Jean-Louis ARRANTE** - *Provided README Template* -
-    [Jean-Louis ERRANTE](https://github.com/JackAamsJenkins)
+    [Jean-Louis ERRANTE](https://github.com/JackAdamsJenkins)
 
 ## License
 
