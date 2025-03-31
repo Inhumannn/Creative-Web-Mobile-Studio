@@ -26,7 +26,7 @@ function Footer() {
           </div>
         </div>
       </section>
-      <section className="flex flex-col justify-between items-center text-center max-w-[1120px] m-auto pt-[25px] gap-[20px] sm:text-start sm:grid sm:grid-cols-2">
+      <section className="flex flex-col justify-between items-center text-center max-w-[1120px] m-auto pt-[50px] gap-[50px] sm:text-start sm:grid sm:grid-cols-2">
         <p className="text-[#777] text-[16px]">
           &copy; 2016 Magnet Studio | All Rights Reserved
         </p>
