@@ -3,7 +3,7 @@ import { Facebook, Linkedin, Twitter } from "lucide-react";
 function Footer() {
   return (
     <footer className="max-w-[1120px] m-auto py-[50px]">
-      <section className="grid grid-cols-3 gap-[50px]">
+      <section className="grid grid-cols-1 text-center justify-items-center sm:grid-cols-3 sm:text-start gap-[50px]">
         <img src="img/logo.svg" alt="logo de la marque" className="w-[36px]" />
         <address className="text-[#777] text-[16px]">
           124 Market Street, Suite 3570 San Fransico, CA 3042 United States
@@ -26,27 +26,29 @@ function Footer() {
           </div>
         </div>
       </section>
-      <section className="flex justify-between items-center max-w-[1120px] m-auto pt-[25px]">
+      <section className="flex flex-col justify-between items-center text-center max-w-[1120px] m-auto pt-[25px] gap-[20px] sm:text-start sm:grid sm:grid-cols-2">
         <p className="text-[#777] text-[16px]">
           &copy; 2016 Magnet Studio | All Rights Reserved
         </p>
-        <ul className="grid grid-cols-3 gap-[30px] items-center">
-          <li>
-            <a href="https://www.facebook.com/">
-              <Facebook size="24px" color="#777" />
-            </a>
-          </li>
-          <li>
-            <a href="https://x.com/">
-              <Twitter size="24px" color="#777" />
-            </a>
-          </li>
-          <li>
-            <a href="https://fr.linkedin.com/">
-              <Linkedin size="24px" color="#777" />
-            </a>
-          </li>
-        </ul>
+        <div>
+          <ul className="grid grid-cols-3 gap-[30px] items-center sm:flex sm:flex-row-reverse">
+            <li>
+              <a href="https://www.facebook.com/">
+                <Facebook size="24px" color="#777" />
+              </a>
+            </li>
+            <li>
+              <a href="https://x.com/">
+                <Twitter size="24px" color="#777" />
+              </a>
+            </li>
+            <li>
+              <a href="https://fr.linkedin.com/">
+                <Linkedin size="24px" color="#777" />
+              </a>
+            </li>
+          </ul>
+        </div>
       </section>
     </footer>
   );
