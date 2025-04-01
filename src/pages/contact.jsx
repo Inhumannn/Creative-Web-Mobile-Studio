@@ -28,10 +28,28 @@ function Contact() {
           development and social marketing.
         </p>
         <form action="" className="grid grid-cols-1 gap-12 py-18">
-          <input type="text" name="name" id="name" placeholder="Name" />
-          <input type="email" name="mail" id="mail" placeholder="Email" />
-          <input type="text" name="tel" id="tel" placeholder="Phone Number" />
-          <select name="" id="">
+          <input
+            type="text"
+            name="name"
+            id="name"
+            placeholder="Name"
+            className="p-3"
+          />
+          <input
+            type="email"
+            name="mail"
+            id="mail"
+            placeholder="Email"
+            className="p-3"
+          />
+          <input
+            type="text"
+            name="tel"
+            id="tel"
+            placeholder="Phone Number"
+            className="p-3"
+          />
+          <select name="select" id="select" className="p-3">
             <option value="Lorem ipsum dolor sit amet.">
               Lorem ipsum dolor sit amet.
             </option>
@@ -45,7 +63,12 @@ function Contact() {
               Lorem ipsum dolor sit amet.
             </option>
           </select>
-          <textarea name="" id="" placeholder="Project Details"></textarea>
+          <textarea
+            name=""
+            id=""
+            placeholder="Project Details"
+            className="p-3"
+          ></textarea>
           <button>Send Message</button>
         </form>
       </main>

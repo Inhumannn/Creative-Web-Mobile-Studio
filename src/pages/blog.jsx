@@ -7,8 +7,8 @@ function Blog() {
   return (
     <>
       <Header />
-      <main className="max-w-[1120px] m-auto">
-        <h1 className="text-[27px] text-center text-[#333] pt-20 pb-5 sm:text-[37px]">
+      <main className="max-w-[1120px] m-auto pt-20 pb-40">
+        <h1 className="text-[27px] text-center text-[#333] pb-5 sm:text-[37px]">
           Lastest Blogs
         </h1>
         <p className="text-[18px] text-center sm:text-[30px]">
@@ -21,7 +21,7 @@ function Blog() {
             alt="image libre de droit"
             className="w-full h-auto"
           />
-          <h2 className="text-[18px] py-3 sm:text-[23px]">
+          <h2 className="text-[18px] pt-6 pb-3 sm:text-[32px]">
             We Help You Create Perfect Modern Design
           </h2>
           <article className="flex items-center gap-3.5 pb-7 text-[12px] sm:text-[15px]">
@@ -47,13 +47,13 @@ function Blog() {
             <Link to="/article">Continue Reading</Link>
           </button>
         </section>
-        <section className="py-10">
+        <section className="pt-10">
           <img
             src="/img/blog-image2.jpg"
             alt="image libre de droit"
             className="w-full h-auto"
           />
-          <h2 className="text-[19px] py-3 sm:text-[23px]">
+          <h2 className="text-[19px] py-3 sm:text-[32px]">
             When do you marry with someone you love in life?
           </h2>
           <article className="flex flex-wrap items-center gap-3.5 pb-7 text-[12px] sm:text-[15px]">
