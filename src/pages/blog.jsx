@@ -1,4 +1,5 @@
 import { MessageCircle } from "lucide-react";
+import { Link } from "react-router-dom";
 import Footer from "../components/footer";
 import Header from "../components/header";
 
@@ -43,7 +44,7 @@ function Blog() {
             dolore nobis!
           </p>
           <button className="my-7 p-2.5 border-[3px] rounded-[10%]">
-            Continue Reading
+            <Link to="/article">Continue Reading</Link>
           </button>
         </section>
         <section className="py-10">
@@ -75,7 +76,7 @@ function Blog() {
             dolore nobis!
           </p>
           <button className="my-7 p-2.5 border-[3px] rounded-[10%]">
-            Continue Reading
+            <Link to="/article">Continue Reading</Link>
           </button>
         </section>
       </main>
