@@ -1,23 +1,10 @@
 import Footer from "@/components/footer";
-import {
-  Accordion,
-  AccordionContent,
-  AccordionItem,
-  AccordionTrigger,
-} from "@/components/ui/accordion";
 import Header from "../components/header";
 
 function Contact() {
   return (
     <>
-      <Accordion type="single" collapsible>
-        <AccordionItem value="item-1">
-          <AccordionTrigger>Menu</AccordionTrigger>
-          <AccordionContent>
-            <Header />
-          </AccordionContent>
-        </AccordionItem>
-      </Accordion>
+      <Header />
 
       <main className="max-w-[1120px] m-auto">
         <h1 className="text-[27px] text-center text-[#333] pt-20 pb-5 sm:text-[37px]">
